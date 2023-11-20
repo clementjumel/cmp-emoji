@@ -8,7 +8,7 @@ source.new = function()
 end
 
 source.get_trigger_characters = function()
-  return { ':' }
+  return { ":" }
 end
 
 source.get_keyword_pattern = function()
@@ -17,7 +17,9 @@ end
 
 source.complete = function(self, params, callback)
   -- Avoid unexpected completion.
-  if not vim.regex(self.get_keyword_pattern() .. '$'):match_str(params.context.cursor_before_line) then
+  if
+    not vim.regex(self.get_keyword_pattern() .. "$"):match_str(params.context.cursor_before_line)
+  then
     return callback()
   end
 
@@ -26,22 +28,21 @@ source.complete = function(self, params, callback)
       self.insert_items = vim.tbl_map(function(item)
         item.word = nil
         return item
-      end, require('cmp_emoji.items')())
+      end, require("cmp_gitmoji.items")())
     end
     callback(self.insert_items)
   else
     if not self.commit_items then
-      self.commit_items = require('cmp_emoji.items')()
+      self.commit_items = require("cmp_gitmoji.items")()
     end
     callback(self.commit_items)
   end
 end
 
 source.option = function(_, params)
-  return vim.tbl_extend('force', {
+  return vim.tbl_extend("force", {
     insert = false,
   }, params.option)
 end
 
 return source
-
