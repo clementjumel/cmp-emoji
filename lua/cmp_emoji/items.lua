@@ -8,8 +8,8 @@ return function()
     },
     {
       word = ":zap:",
-      label = "⚡ :zap:",
-      insertText = "⚡",
+      label = "⚡️ :zap:",
+      insertText = "⚡️",
       filterText = ":zap:",
     },
     {
@@ -26,8 +26,8 @@ return function()
     },
     {
       word = ":ambulance:",
-      label = "🚑 :ambulance:",
-      insertText = "🚑",
+      label = "🚑️ :ambulance:",
+      insertText = "🚑️",
       filterText = ":ambulance:",
     },
     {
@@ -68,8 +68,8 @@ return function()
     },
     {
       word = ":lock:",
-      label = "🔒 :lock:",
-      insertText = "🔒",
+      label = "🔒️ :lock:",
+      insertText = "🔒️",
       filterText = ":lock:",
     },
     {
@@ -176,8 +176,8 @@ return function()
     },
     {
       word = ":rewind:",
-      label = "⏪ :rewind:",
-      insertText = "⏪",
+      label = "⏪️ :rewind:",
+      insertText = "⏪️",
       filterText = ":rewind:",
     },
     {
@@ -188,14 +188,14 @@ return function()
     },
     {
       word = ":package:",
-      label = "📦 :package:",
-      insertText = "📦",
+      label = "📦️ :package:",
+      insertText = "📦️",
       filterText = ":package:",
     },
     {
       word = ":alien:",
-      label = "👽 :alien:",
-      insertText = "👽",
+      label = "👽️ :alien:",
+      insertText = "👽️",
       filterText = ":alien:",
     },
     {
@@ -224,8 +224,8 @@ return function()
     },
     {
       word = ":wheelchair:",
-      label = "♿ :wheelchair:",
-      insertText = "♿",
+      label = "♿️ :wheelchair:",
+      insertText = "♿️",
       filterText = ":wheelchair:",
     },
     {
@@ -307,10 +307,10 @@ return function()
       filterText = ":see_no_evil:",
     },
     {
-      word = ":camera_with_flash:",
-      label = "📸 :camera_with_flash:",
+      word = ":camera_flash:",
+      label = "📸 :camera_flash:",
       insertText = "📸",
-      filterText = ":camera_with_flash:",
+      filterText = ":camera_flash:",
     },
     {
       word = ":alembic:",
@@ -320,8 +320,8 @@ return function()
     },
     {
       word = ":mag:",
-      label = "🔍 :mag:",
-      insertText = "🔍",
+      label = "🔍️ :mag:",
+      insertText = "🔍️",
       filterText = ":mag:",
     },
     {
@@ -373,10 +373,10 @@ return function()
       filterText = ":adhesive_bandage:",
     },
     {
-      word = ":face_with_monocle:",
-      label = "🧐 :face_with_monocle:",
+      word = ":monocle_face:",
+      label = "🧐 :monocle_face:",
       insertText = "🧐",
-      filterText = ":face_with_monocle:",
+      filterText = ":monocle_face:",
     },
     {
       word = ":coffin:",
