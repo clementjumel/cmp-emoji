@@ -175,6 +175,12 @@ return function()
       filterText = ":pencil2:",
     },
     {
+      word = ":poop:",
+      label = "💩 :poop:",
+      insertText = "💩",
+      filterText = ":poop:",
+    },
+    {
       word = ":rewind:",
       label = "⏪️ :rewind:",
       insertText = "⏪️",
@@ -407,6 +413,12 @@ return function()
       label = "🧱 :bricks:",
       insertText = "🧱",
       filterText = ":bricks:",
+    },
+    {
+      word = ":technologist:",
+      label = "🧑‍💻 :technologist:",
+      insertText = "🧑‍💻",
+      filterText = ":technologist:",
     },
     {
       word = ":money_with_wings:",
